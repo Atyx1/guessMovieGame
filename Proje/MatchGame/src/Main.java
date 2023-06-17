@@ -45,7 +45,7 @@ public class Main {
             System.out.println(" ");
             System.out.print("Guess A Movie: ");
 
-            String enteredFilmName=scanner.next();
+            String enteredFilmName=scanner.nextLine();
             if(movieManager.returnFilm(enteredFilmName,myMovieList)!=-1){
                 Movie tempMovie=myMovieList.get(movieManager.returnFilm(enteredFilmName,myMovieList));
 
